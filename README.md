@@ -46,8 +46,8 @@ This project analyzes Uber ride data to uncover insights into trip durations, di
    > | Meeting | 5 | 166 | 27 | 30 | 22.00 |
    > | Customer Visit | 2 | 330 | 43 | 33 | 21.00 |
    > | Commute | 185 | 185 | #DIV/0! | 185 | - |
-     >
-    > After reviewing the average and standard deviation, the data is spread, and the average might be influenced by an  outlier
+   >
+   > After reviewing the average and standard deviation, the data is spread, and the average might be influenced by an  outlier
    > spectialy **(Meeting, Customer Visit, Temporary Site)** and we can ignore **(Charity($) , Commute)** because it only has one record , and **"NULL"** recordes because it might be any other purpose
    > and **"moving"** doesn't have any difference between average and median
    >
