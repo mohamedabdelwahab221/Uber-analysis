@@ -20,15 +20,13 @@ This project analyzes Uber ride data to uncover insights into trip durations, di
 
 ## ❓ Key Business Questions Answered
 1. What’s the average trip duration, and how does it vary by purpose?
-2. Are there seasonal patterns in ride frequency or distance?
-3. Do certain purposes always require long-distance travel?
-4. Do business vs personal trips follow different timing patterns?
+2. Are there seasonal patterns in ride frequency?
+3. Do business vs personal trips follow different timing patterns?
+4. Do business trips get longer during rush hours?
+5. Do certain purposes always require long-distance travel?
 
 ## 📈 Analysis & Insights
-- Time-based trends in ride frequency and distance
-- Trip duration clustering by purpose
-- Weekday vs weekend patterns for business and personal trips
-- Impact of rush hour on trip length and frequency
+- 
 
 ## 🛠️ Tools Used
 - Excel, Power Query.
