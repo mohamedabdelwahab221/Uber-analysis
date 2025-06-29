@@ -34,38 +34,38 @@ This project analyzes Uber ride data to uncover insights into trip durations, di
    > The median is a better measure of central tendency because it's not influenced by the extreme values that make the mean misleading
    > so the average (median) = **16**
    >
-    > | Purpose | Min of TRIP_DURATION | Max of TRIP_DURATION | StdDev of TRIP_DURATION | Average of TRIP_DURATION | median |
-    > |---------|---------------------|---------------------|------------------------|--------------------------|--------|
-    > | Errand/Supplies | 2 | 57 | 10 | 13 | 10.00 |
-    > | Moving | 11 | 21 | 5 | 15 | 14.00 |
-    > | Meal/Entertain | 3 | 64 | 10 | 16 | 13.50 |
-    > | Between Offices | 8 | 65 | 16 | 26 | 23.00 |
-    > | Temporary Site | 5 | 103 | 18 | 26 | 20.00 |
-    > | Airport/Travel | 15 | 34 | 10 | 26 | 29.00 |
-    > | Charity ($) | 27 | 27 | #DIV/0! | 27 | 27.00 |
-    > | Meeting | 5 | 166 | 27 | 30 | 22.00 |
-    > | Customer Visit | 2 | 330 | 43 | 33 | 21.00 |
-    > | Commute | 185 | 185 | #DIV/0! | 185 | - |
+   > | Purpose | Min of TRIP_DURATION | Max of TRIP_DURATION | StdDev of TRIP_DURATION | Average of TRIP_DURATION | median |
+   > |---------|---------------------|---------------------|------------------------|--------------------------|--------|
+   > | Errand/Supplies | 2 | 57 | 10 | 13 | 10.00 |
+   > | Moving | 11 | 21 | 5 | 15 | 14.00 |
+   > | Meal/Entertain | 3 | 64 | 10 | 16 | 13.50 |
+   > | Between Offices | 8 | 65 | 16 | 26 | 23.00 |
+   > | Temporary Site | 5 | 103 | 18 | 26 | 20.00 |
+   > | Airport/Travel | 15 | 34 | 10 | 26 | 29.00 |
+   > | Charity ($) | 27 | 27 | #DIV/0! | 27 | 27.00 |
+   > | Meeting | 5 | 166 | 27 | 30 | 22.00 |
+   > | Customer Visit | 2 | 330 | 43 | 33 | 21.00 |
+   > | Commute | 185 | 185 | #DIV/0! | 185 | - |
      >
-    >after revwing the average and stdDev the data is speread and the avgerage might be influnced by outlier
+    > After reviewing the average and standard deviation, the data is spread, and the average might be influenced by an  outlier
    > spectialy **(Meeting, Customer Visit, Temporary Site)** and we can ignore **(Charity($) , Commute)** because it only has one record , and **"NULL"** recordes because it might be any other purpose
-   > and **"moving"** doesnt have any deffrence between average and median
+   > and **"moving"** doesn't have any difference between average and median
    >
    > ![purpose trip duration distribution](https://github.com/user-attachments/assets/47efe038-bff5-442e-833a-4e8cbb7a9aef)
    >
-   > so acording to this box plots for each purpose we needed to investigate its better go use median as measure of central tendency
+   > So, according to this, box plots for each purpose we needed to investigate, it's better to use the median as a measure of central tendency
    > 
-   > **in conclution** : yes the average vary by purpose
+   > **in conclusion**: yes, the average varies by purpose
 
 ### 2. Are there seasonal patterns in ride frequency?
    >![trip freq](https://github.com/user-attachments/assets/12e0055d-ac84-4b91-931d-f53d3cbdddab)
    >
-   >This line chart displays monthly Uber trip counts categorized by purpose (Business and Personal) throughout a 12-month period
-   >Business trips showed early strength with February peak (~100 rides) Gradual decline through March as personal trips slightly increased
+   >This line chart displays monthly Uber trip counts categorized by purpose (Business and Personal) throughout 12 months
+   >Business trips showed early strength with February peak (~100 rides), Gradual decline through March as personal trips slightly increased
    >April-May: Stable period with consistent low-moderate activity
-   >June-August: Business trips incressed, reaching annual peak in August while personal trips increased like what happened in Feb-Mar
+   >June-August: Business trips increased, reaching annual peak in August, while personal trips increased as happened in Feb-Mar
    >September 70% drop in business trips (130 → 40)
-   >Q4 Sustained growth from October through December reached highest point of entire year (145 rides)
+   >Q4 Sustained growth from October through December reached the highest point of the entire year (145 rides)
 
 ## 🛠️ Tools Used
 - Excel, Power Query.
