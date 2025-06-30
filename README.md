@@ -193,14 +193,8 @@ From the histogram, we see that these purposes are right-skewed, meaning their a
 
 ## 📂 Repository Structure
 ```
-├── data/
-│   ├── raw_data.xlsx
-│   └── cleaned_data.xlsx
-├── analysis/
-│   ├── exploratory_analysis.pbix
-│   └── statistical_analysis.xlsx
-├── visualizations/
-│   └── charts_and_graphs/
-├── README.md
-└── requirements.txt
+├── README.md                    # Project documentation and analysis insights
+├── Uber Data Analysis.pbix      # Power BI dashboard with visualizations
+├── Uber Data Analysis.xlsx      # Excel analysis workbook with calculations
+└── UberDataset.csv             # Raw dataset containing 1,157 Uber trip records
 ```
