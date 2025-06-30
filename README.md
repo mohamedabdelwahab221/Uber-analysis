@@ -99,7 +99,8 @@ For July, there were trips with recorded purposes that happened on weekends and 
 
 ### 4. Do business trips get longer during rush hours?
 
-![Rush Hour Analysis](https://github.com/user-attachments/assets/98c0def6-fb0c-4187-b495-d8d3d79e8663)
+![Rush Hour Analysis](https://github.com/user-attachments/assets/bb902c88-1290-42b5-88c6-25414c54f8f3)
+
 
 Looking at the histogram, we find that most trips happen between 8 AM and 9 PM. After reviewing the box plot, we see that we hit peak rush hour at 9 AM at the start of the day and then at 4 PM at the end of the day.
 
